@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A7AAA0C1D0D501700B30EB3 /* LMGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7AAA0B1D0D501700B30EB3 /* LMGaugeView.m */; };
 		3ADB5CE41D0BB27600A4A2F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB5CE31D0BB27600A4A2F3 /* AppDelegate.swift */; };
 		3ADB5CE61D0BB27600A4A2F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB5CE51D0BB27600A4A2F3 /* ViewController.swift */; };
 		3ADB5CE91D0BB27600A4A2F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB5CE71D0BB27600A4A2F3 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		3ADB5CEE1D0BB27600A4A2F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADB5CEC1D0BB27600A4A2F3 /* LaunchScreen.storyboard */; };
 		3ADB5CF91D0BB27600A4A2F3 /* iOTDevDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB5CF81D0BB27600A4A2F3 /* iOTDevDayTests.swift */; };
 		3ADB5D041D0BB27600A4A2F3 /* iOTDevDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB5D031D0BB27600A4A2F3 /* iOTDevDayUITests.swift */; };
+		6EEAE95698D54316354C2204 /* Pods_iOTDevDayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB4988AA4B782ED5C139A76 /* Pods_iOTDevDayUITests.framework */; };
+		D4A8CCAD8124D307BB9A8EB5 /* Pods_iOTDevDayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DC5DD9DBE90A969B9ADD69 /* Pods_iOTDevDayTests.framework */; };
+		F079E6560562AD6C42A91E5C /* Pods_iOTDevDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C878EB3D0E03A1E72BFAE702 /* Pods_iOTDevDay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DA7308F509848171C077AE6 /* Pods-iOTDevDayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOTDevDayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOTDevDayTests/Pods-iOTDevDayTests.release.xcconfig"; sourceTree = "<group>"; };
+		23C34E3772D713C9F039F693 /* Pods-iOTDevDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOTDevDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOTDevDay/Pods-iOTDevDay.release.xcconfig"; sourceTree = "<group>"; };
+		2F46214064499ADD9B2BAEC8 /* Pods-iOTDevDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOTDevDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOTDevDay/Pods-iOTDevDay.debug.xcconfig"; sourceTree = "<group>"; };
+		32AF8A72B57E299C089829C2 /* Pods-iOTDevDayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOTDevDayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOTDevDayUITests/Pods-iOTDevDayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A7AA9FD1D0D0CC700B30EB3 /* iOTDevDay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOTDevDay.h; sourceTree = "<group>"; };
+		3A7AAA0A1D0D501700B30EB3 /* LMGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMGaugeView.h; sourceTree = "<group>"; };
+		3A7AAA0B1D0D501700B30EB3 /* LMGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMGaugeView.m; sourceTree = "<group>"; };
 		3ADB5CE01D0BB27600A4A2F3 /* iOTDevDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOTDevDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADB5CE31D0BB27600A4A2F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ADB5CE51D0BB27600A4A2F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		3ADB5CFF1D0BB27600A4A2F3 /* iOTDevDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOTDevDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADB5D031D0BB27600A4A2F3 /* iOTDevDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOTDevDayUITests.swift; sourceTree = "<group>"; };
 		3ADB5D051D0BB27600A4A2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7E98DE838F8D5BB7E4E49F /* Pods-iOTDevDayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOTDevDayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOTDevDayUITests/Pods-iOTDevDayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DB4988AA4B782ED5C139A76 /* Pods_iOTDevDayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOTDevDayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B08E781EED71F2FB693BF29 /* Pods-iOTDevDayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOTDevDayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOTDevDayTests/Pods-iOTDevDayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C878EB3D0E03A1E72BFAE702 /* Pods_iOTDevDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOTDevDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DC5DD9DBE90A969B9ADD69 /* Pods_iOTDevDayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOTDevDayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F079E6560562AD6C42A91E5C /* Pods_iOTDevDay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A8CCAD8124D307BB9A8EB5 /* Pods_iOTDevDayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEAE95698D54316354C2204 /* Pods_iOTDevDayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A7AAA091D0D501700B30EB3 /* LMGaugeView */ = {
+			isa = PBXGroup;
+			children = (
+				3A7AAA0A1D0D501700B30EB3 /* LMGaugeView.h */,
+				3A7AAA0B1D0D501700B30EB3 /* LMGaugeView.m */,
+			);
+			path = LMGaugeView;
+			sourceTree = "<group>";
+		};
+		3ACD6EBD1DFED1A699B59825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C878EB3D0E03A1E72BFAE702 /* Pods_iOTDevDay.framework */,
+				F2DC5DD9DBE90A969B9ADD69 /* Pods_iOTDevDayTests.framework */,
+				4DB4988AA4B782ED5C139A76 /* Pods_iOTDevDayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3ADB5CD71D0BB27600A4A2F3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				3ADB5CF71D0BB27600A4A2F3 /* iOTDevDayTests */,
 				3ADB5D021D0BB27600A4A2F3 /* iOTDevDayUITests */,
 				3ADB5CE11D0BB27600A4A2F3 /* Products */,
+				626F7AE5B033FBACDE44DA06 /* Pods */,
+				3ACD6EBD1DFED1A699B59825 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +137,10 @@
 		3ADB5CE21D0BB27600A4A2F3 /* iOTDevDay */ = {
 			isa = PBXGroup;
 			children = (
+				3A7AAA091D0D501700B30EB3 /* LMGaugeView */,
 				3ADB5CE31D0BB27600A4A2F3 /* AppDelegate.swift */,
 				3ADB5CE51D0BB27600A4A2F3 /* ViewController.swift */,
+				3A7AA9FD1D0D0CC700B30EB3 /* iOTDevDay.h */,
 				3ADB5CE71D0BB27600A4A2F3 /* Main.storyboard */,
 				3ADB5CEA1D0BB27600A4A2F3 /* Assets.xcassets */,
 				3ADB5CEC1D0BB27600A4A2F3 /* LaunchScreen.storyboard */,
@@ -125,6 +167,19 @@
 			path = iOTDevDayUITests;
 			sourceTree = "<group>";
 		};
+		626F7AE5B033FBACDE44DA06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F46214064499ADD9B2BAEC8 /* Pods-iOTDevDay.debug.xcconfig */,
+				23C34E3772D713C9F039F693 /* Pods-iOTDevDay.release.xcconfig */,
+				5B08E781EED71F2FB693BF29 /* Pods-iOTDevDayTests.debug.xcconfig */,
+				1DA7308F509848171C077AE6 /* Pods-iOTDevDayTests.release.xcconfig */,
+				3B7E98DE838F8D5BB7E4E49F /* Pods-iOTDevDayUITests.debug.xcconfig */,
+				32AF8A72B57E299C089829C2 /* Pods-iOTDevDayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ADB5D081D0BB27600A4A2F3 /* Build configuration list for PBXNativeTarget "iOTDevDay" */;
 			buildPhases = (
+				1D76104F994145049FF41553 /* 📦 Check Pods Manifest.lock */,
 				3ADB5CDC1D0BB27600A4A2F3 /* Sources */,
 				3ADB5CDD1D0BB27600A4A2F3 /* Frameworks */,
 				3ADB5CDE1D0BB27600A4A2F3 /* Resources */,
+				348930B79BA80BD0CDB8BB8E /* 📦 Embed Pods Frameworks */,
+				BAD700808480D9A59EC6ABDD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ADB5D0B1D0BB27600A4A2F3 /* Build configuration list for PBXNativeTarget "iOTDevDayTests" */;
 			buildPhases = (
+				B9284272AE5255C57E68EB8E /* 📦 Check Pods Manifest.lock */,
 				3ADB5CF01D0BB27600A4A2F3 /* Sources */,
 				3ADB5CF11D0BB27600A4A2F3 /* Frameworks */,
 				3ADB5CF21D0BB27600A4A2F3 /* Resources */,
+				1AD3AF1FAF585ADB48CCA6EC /* 📦 Embed Pods Frameworks */,
+				1875798955FC86FE560CE255 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ADB5D0E1D0BB27600A4A2F3 /* Build configuration list for PBXNativeTarget "iOTDevDayUITests" */;
 			buildPhases = (
+				1053DD2E2738074EF24A807F /* 📦 Check Pods Manifest.lock */,
 				3ADB5CFB1D0BB27600A4A2F3 /* Sources */,
 				3ADB5CFC1D0BB27600A4A2F3 /* Frameworks */,
 				3ADB5CFD1D0BB27600A4A2F3 /* Resources */,
+				DC68F6D12220305B73CE7667 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +314,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1053DD2E2738074EF24A807F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1875798955FC86FE560CE255 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOTDevDayTests/Pods-iOTDevDayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AD3AF1FAF585ADB48CCA6EC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOTDevDayTests/Pods-iOTDevDayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D76104F994145049FF41553 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		348930B79BA80BD0CDB8BB8E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOTDevDay/Pods-iOTDevDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9284272AE5255C57E68EB8E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD700808480D9A59EC6ABDD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOTDevDay/Pods-iOTDevDay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC68F6D12220305B73CE7667 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOTDevDayUITests/Pods-iOTDevDayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3ADB5CDC1D0BB27600A4A2F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3ADB5CE61D0BB27600A4A2F3 /* ViewController.swift in Sources */,
+				3A7AAA0C1D0D501700B30EB3 /* LMGaugeView.m in Sources */,
 				3ADB5CE41D0BB27600A4A2F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,28 +584,33 @@
 		};
 		3ADB5D091D0BB27600A4A2F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F46214064499ADD9B2BAEC8 /* Pods-iOTDevDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOTDevDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dycodex.iOTDevDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iOTDevDay/iOTDevDay.h;
 			};
 			name = Debug;
 		};
 		3ADB5D0A1D0BB27600A4A2F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C34E3772D713C9F039F693 /* Pods-iOTDevDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOTDevDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dycodex.iOTDevDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = iOTDevDay/iOTDevDay.h;
 			};
 			name = Release;
 		};
 		3ADB5D0C1D0BB27600A4A2F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B08E781EED71F2FB693BF29 /* Pods-iOTDevDayTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iOTDevDayTests/Info.plist;
@@ -431,6 +623,7 @@
 		};
 		3ADB5D0D1D0BB27600A4A2F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA7308F509848171C077AE6 /* Pods-iOTDevDayTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iOTDevDayTests/Info.plist;
@@ -443,6 +636,7 @@
 		};
 		3ADB5D0F1D0BB27600A4A2F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7E98DE838F8D5BB7E4E49F /* Pods-iOTDevDayUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOTDevDayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +648,7 @@
 		};
 		3ADB5D101D0BB27600A4A2F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AF8A72B57E299C089829C2 /* Pods-iOTDevDayUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOTDevDayUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +677,7 @@
 				3ADB5D0A1D0BB27600A4A2F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ADB5D0B1D0BB27600A4A2F3 /* Build configuration list for PBXNativeTarget "iOTDevDayTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +686,7 @@
 				3ADB5D0D1D0BB27600A4A2F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3ADB5D0E1D0BB27600A4A2F3 /* Build configuration list for PBXNativeTarget "iOTDevDayUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +695,7 @@
 				3ADB5D101D0BB27600A4A2F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

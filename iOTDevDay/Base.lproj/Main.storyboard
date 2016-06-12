@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOTDevDay" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,75 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ptg-Io-Dcc" customClass="LMGaugeView">
+                                <rect key="frame" x="200" y="28" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="dbp-RZ-bMk"/>
+                                    <constraint firstAttribute="width" constant="200" id="xQB-ju-a79"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unitOfMeasurement" value="ºC"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bFe-N0-KZ2">
+                                <rect key="frame" x="254" y="508" width="92" height="31"/>
+                                <subviews>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vON-NM-MQ9">
+                                        <rect key="frame" x="39" y="0.0" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="ledSwitchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="HGE-Y8-w9A"/>
+                                        </connections>
+                                    </switch>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fhu-PG-fnW">
+                                        <rect key="frame" x="0.0" y="5" width="31" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="vON-NM-MQ9" firstAttribute="centerY" secondItem="Fhu-PG-fnW" secondAttribute="centerY" id="7SN-l7-tT6"/>
+                                    <constraint firstItem="vON-NM-MQ9" firstAttribute="top" secondItem="bFe-N0-KZ2" secondAttribute="top" id="9aF-ZM-wZm"/>
+                                    <constraint firstAttribute="bottom" secondItem="vON-NM-MQ9" secondAttribute="bottom" id="AuU-rZ-wzw"/>
+                                    <constraint firstItem="vON-NM-MQ9" firstAttribute="leading" secondItem="Fhu-PG-fnW" secondAttribute="trailing" constant="8" id="Ktw-Ii-KnS"/>
+                                    <constraint firstItem="Fhu-PG-fnW" firstAttribute="leading" secondItem="bFe-N0-KZ2" secondAttribute="leading" id="OGi-T9-FSF"/>
+                                    <constraint firstAttribute="trailing" secondItem="vON-NM-MQ9" secondAttribute="trailing" constant="4" id="SDh-6M-dIl"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eHo-4v-YI0" customClass="LMGaugeView">
+                                <rect key="frame" x="200" y="268" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="uca-HH-3Sr"/>
+                                    <constraint firstAttribute="width" constant="200" id="uhA-DN-Uub"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="unitOfMeasurement" value="Pa"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bFe-N0-KZ2" firstAttribute="top" secondItem="eHo-4v-YI0" secondAttribute="bottom" constant="40" id="0SB-SW-mi7"/>
+                            <constraint firstItem="eHo-4v-YI0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NFF-Mi-U87"/>
+                            <constraint firstItem="bFe-N0-KZ2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OYr-2L-yGq"/>
+                            <constraint firstItem="eHo-4v-YI0" firstAttribute="top" secondItem="ptg-Io-Dcc" secondAttribute="bottom" constant="40" id="TnO-dh-xn8"/>
+                            <constraint firstItem="ptg-Io-Dcc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="VU5-gN-xf9"/>
+                            <constraint firstItem="ptg-Io-Dcc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sgt-UL-a5O"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ledSwitch" destination="vON-NM-MQ9" id="ifQ-OT-v46"/>
+                        <outlet property="presureGaugeView" destination="eHo-4v-YI0" id="U95-NA-nbL"/>
+                        <outlet property="temperatureGaugeView" destination="ptg-Io-Dcc" id="7Uj-0P-AAU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="306" y="383"/>
         </scene>
     </scenes>
 </document>
